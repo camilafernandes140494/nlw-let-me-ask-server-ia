@@ -1,0 +1,16 @@
+# Ignorar arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Ignorar pastas de módulos
+node_modules/
+dist/
+build/
+
+# Ignorar logs
+*.log
+
+# Ignorar pastas de banco/seed temporárias (se aplicável)
+pgdata/
+sqlite.db
