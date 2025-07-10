@@ -1,5 +1,5 @@
 import { reset, seed } from 'drizzle-seed';
-import { db } from './connection.ts';
+import { db, sql } from './connection.ts';
 import { schema } from './schema/index.ts';
 
 await reset(db, schema);
@@ -16,4 +16,7 @@ await seed(db, schema).refine((f) => {
   };
 });
 
-// console.log('Database seeded successfully.');
+await sql.end();
+
+// biome-ignore lint/suspicious/noConsole: only used in dev
+console.log('Database seeded');
