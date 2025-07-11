@@ -8,6 +8,13 @@
       "when": 1752189806573,
       "tag": "0000_lucky_magik",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752192109005,
+      "tag": "0001_easy_fenris",
+      "breakpoints": true
     }
   ]
 }
