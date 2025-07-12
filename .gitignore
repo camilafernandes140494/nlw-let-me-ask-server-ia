@@ -2,6 +2,7 @@
 .env
 .env.local
 .env.*.local
+.env.ts
 
 # Ignorar pastas de módulos
 node_modules/
